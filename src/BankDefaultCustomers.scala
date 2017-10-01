@@ -6,7 +6,7 @@ import org.apache.log4j.Logger
 import org.apache.log4j.Level;
 
 object BankDefaultCustomers extends App {
-  //WarehosueDirectory ->  
+  
   Logger.getLogger("org").setLevel(Level.ERROR);
   Logger.getLogger("akka").setLevel(Level.ERROR);
   val tempDir = "file:///home/cloudera/MLProject/spark-wh";
